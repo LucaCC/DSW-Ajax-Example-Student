@@ -11,7 +11,7 @@ def home():
 
 @app.route('/ajaxText')
 def ajaxChange():
-    return Markup("<p>This is a new pargraph</p>")
+    return Markup("<h2>This is a new title</h2> <p>This is a new pargraph</p>")
 
 if __name__ == '__main__':
     app.run()
